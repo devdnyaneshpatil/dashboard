@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
 
-  const handleNavigation = (path:any) => {
+  const handleNavigation = (path:string) => {
     router.push(path);
   };
 
